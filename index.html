@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XoSTORE - magazine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>XOSTORE - magazine</header>
+    <section class="main">
+        <div class="products-all">
+            <div class="products-table-top">
+                Products
+            </div>
+            <div class="products-table-and-add">
+                <div class="products-table">
+                    <table id="productsTable">
+                        <tr>
+                            <th class="th-name">Name</th>
+                            <th class="th-price">Price</th>
+                            <th class="th-quantity">Quantity</th>
+                            <th class="th-quantity"></th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="products-add">
+                    <span class="products-add-info">Add Product</span><br>
+                    <input type="text" placeholder="Product Name" class="products-add-inputs" id="productName">
+                    <input type="number" placeholder="Product Price" class="products-add-inputs" id="productPrice">
+                    <input type="number" placeholder="Product Quantity" class="products-add-inputs" id="productQuantity">
+                    <button class="products-add-button" onclick="addProduct()">Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

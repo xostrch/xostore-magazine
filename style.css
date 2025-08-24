@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    font-family: Sansation;
+    color: rgb(45, 63, 54);
+}
+
+body{
+    background-color: rgb(167, 255, 213);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    width: 100%;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.products-all{
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.products-table-top{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.products-table-and-add{
+    display: flex;
+}
+
+.products-table{
+    border-right: 2px solid rgb(45, 63, 54);
+    width: 68%;
+}
+
+table {
+    border: 2px solid rgb(45, 63, 54);
+    border-collapse: separate;
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+td{
+    text-align: center;
+    font-size: 1.3em;
+    height: 2em;
+}
+
+.table-delete-button{
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2em;
+    margin-right: 1em;
+    background: transparent;
+    border: 1px solid rgb(45, 63, 54);
+}
+
+.table-delete-button:hover{
+    background-color:  rgba(208, 211, 210, 0.336); 
+}
+
+.th-name{
+    width: 13em;
+    font-size: 1.3em;
+}
+
+.th-price, .th-quantity{
+    width: 6em;
+    font-size: 1.3em;
+}
+
+.products-add{
+    width: 30%;
+    text-align: center;
+}
+
+.products-add-info{
+    font-size: 2em;
+}
+
+.products-add-inputs{
+    font-size: 1.5em;
+    outline: none;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border: 1px solid rgb(45, 63, 54);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+.products-add-button{
+    font-size: 1.8em;
+    margin-top: 0.5em;
+    background-color: rgba(255, 255, 255, 0.37);
+    border: 1px solid rgb(45, 63, 54);
+    border-radius: 0.5em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    cursor: pointer;
+}
+
+.products-add-button:hover{
+        background-color:  rgba(208, 211, 210, 0.336); 
+}
