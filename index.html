@@ -12,6 +12,15 @@
         <div class="products-all">
             <div class="products-table-top">
                 Products
+                    <div class="products-sorting">
+                        Sort by:
+                        <select id="selectSort" onchange="sortBy()">
+                            <option value="sort-random">Default</option>
+                            <option value="sort-desc">Highest Price</option>
+                            <option value="sort-asc">Lowest Price</option>
+                            <option value="sort-quantity">Quantity</option>
+                        </select>
+                    </div>
             </div>
             <div class="products-table-and-add">
                 <div class="products-table">
@@ -32,7 +41,18 @@
                     <button class="products-add-button" onclick="addProduct()">Add</button>
                 </div>
             </div>
+            <div class="functions">
+                <h4>Additional functions</h4>
+                <div class="functions-search">
+                    <button class="functions-search-button" onclick="checkboxSort()">Search</button>
+                </div>
+                <div class="functions-options">
+                    <input type="checkbox" id="checkboxOutOfStock">
+                    <span>Out of stock</span>
+                </div>
+            </div>
         </div>
+
     </section>
     <script src="main.js"></script>
 </body>

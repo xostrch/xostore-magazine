@@ -35,6 +35,13 @@ header{
 .products-table-top{
     font-size: 2em;
     margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.products-sorting{
+    margin-left: 5em;
+    font-size: 0.8em;
 }
 
 .products-table-and-add{
@@ -115,5 +122,43 @@ td{
 }
 
 .products-add-button:hover{
-        background-color:  rgba(208, 211, 210, 0.336); 
+    background-color:  rgba(208, 211, 210, 0.336); 
+}
+
+select{
+    outline: none;
+    font-size: 0.8em;
+}
+
+.functions{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.functions-options{
+    font-size: 1.3em;
+}
+
+.functions-search{
+    display: flex;
+    justify-content: center;
+}
+
+.functions-search-button{
+    font-size: 1.8em;
+    margin-top: 0.5em;
+    background-color: rgba(255, 255, 255, 0.37);
+    border: 1px solid rgb(45, 63, 54);
+    border-radius: 0.5em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    cursor: pointer;
+}
+
+.functions-search-button:hover{
+    background-color:  rgba(208, 211, 210, 0.336); 
+}
+
+h4{
+    text-align: center;
+    font-size: 2em;
 }
